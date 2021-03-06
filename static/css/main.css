@@ -8,7 +8,7 @@
 }
 html {
   color: #232333;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Noto Serif SC', serif;
   font-size: 15px;
   line-height: 1.6em;
 }
@@ -26,7 +26,7 @@ body{
 }
 
 p {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Noto Serif SC', serif;
   line-height: 1.5;
 }
 
@@ -201,7 +201,7 @@ display: flex;
 justify-content: space-between;
 }
 .tags li::before{
-  content: "🏷 ";
+  content: "🏷️ ";
 }
 .tags a{
   border-bottom: 3px solid var(--maincolor); 
