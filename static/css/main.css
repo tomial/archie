@@ -62,7 +62,7 @@ ul li {
 }
 ul li::before {
   content: '* ';
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 /* Images */

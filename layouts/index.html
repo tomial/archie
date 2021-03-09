@@ -24,7 +24,9 @@
 						{{ .Summary }}&hellip;
 						{{ end }}
 					</div>
-					<a href="{{ .RelPermalink }}">Read more ⟶</a>
+					<div style="margin-top: 0.5em;">
+						<a href="{{ .RelPermalink }}">阅读更多 ➜</a>
+					</div>
 				</section>
 				{{ end }}
 				{{ template "partials/paginator.html" . }}
