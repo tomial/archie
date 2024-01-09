@@ -234,23 +234,29 @@ svg{
 .highlight {
   display: flex;
   position: relative;
+  border-radius: 10px;
   -webkit-overflow-scrolling: touch;
+}
+div.highlight div {
+  border-radius: 10px;
 }
 .highlight pre code[class*="language-"] {
   -webkit-overflow-scrolling: touch;
 }
 .highlight pre code[class*="language-"]::before {
+  font-family: 'Besley*';
+  content: attr(data-lang);
   background: black;
-  border-radius: 0 0 0.25rem 0.25rem;
-  color: white;
-  font-size: 12px;
+  border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+  color: var(--darkMainColor);
+  font-size: 14px;
   letter-spacing: 0.025rem;
   padding: 0.1rem 0.5rem;
   position: absolute;
   right: 1rem;
   text-align: right;
   text-transform: uppercase;
-  top: 0;
+  top: 5px;
 }
 
 .highlight pre code[class=language-javaScript]::before,
