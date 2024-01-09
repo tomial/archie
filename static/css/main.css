@@ -5,6 +5,7 @@
 --callouctcolor:#8caaee;
 --hovercolor:#ca9ee6;
 --darkMaincolor: #c6a0f6;
+--darkCodeColor: #1e1e2e;
 }
 html {
   color: #232333;
@@ -104,7 +105,7 @@ figure h4::before {
 /* Code blocks */
 code {
   font-family: 'Drafting* Mono', monospace;
-  background-color: #494d64;
+  background-color: var(--darkCodeColor);
   padding: .1em .2em;
 }
 
@@ -231,6 +232,7 @@ svg{
     background-color: #f9f2f4;
 }
 .highlight {
+  display: flex;
   position: relative;
   -webkit-overflow-scrolling: touch;
 }
